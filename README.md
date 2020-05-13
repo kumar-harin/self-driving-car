@@ -37,5 +37,9 @@ then open the terminal and execute the followning commands(hit "ENTER" to execut
     -pip3 install tensorflow==1.1
     -pip3 install keras==1.2
     
+-Git clone or download this repo into your pc
+-Simulator folder contains the car simulator/game
+-ML Agent folder contains the ML code required
+
 
     
