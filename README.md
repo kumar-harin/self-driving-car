@@ -22,7 +22,7 @@ then open the terminal and execute the followning commands(hit "ENTER" to execut
     pip3 install numpy
     pip3 install matplotlib
     pip3 install jupyter
-    pip3 install opencv3
+    pip3 install opencv-python
     pip3 install pillow
     pip3 install scikit-learn
     pip3 install scikit-image
