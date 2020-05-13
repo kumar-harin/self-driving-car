@@ -16,7 +16,7 @@ We start off by making a Neural Network, which is basically a bunch of perceptro
 NOTE: BASIC KNOWLEDGE OF PYTHON AND MACHINE LEARNING IS REQUIRED.
 
 first off, download python version 3.5.2 from official website https://www.python.org/downloads/release/python-352/ using this link.
-Download the executable installer for your OS.
+Download the executable installer for your OS and install it.
 
 then open the terminal and execute the followning commands(hit "ENTER" to execute):
 
