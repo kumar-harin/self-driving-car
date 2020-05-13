@@ -19,23 +19,23 @@ first off, download python version 3.5.2 from official website https://www.pytho
 
 then open the terminal and execute the followning commands(hit "ENTER" to execute):
 
-    -pip3 install numpy
-    -pip3 install matplotlib
-    -pip3 install jupyter
-    -pip3 install opencv3
-    -pip3 install pillow
-    -pip3 install scikit-learn
-    -pip3 install scikit-image
-    -pip3 install scipy
-    -pip3 install h5py
-    -pip3 install eventlet
-    -pip3 install flask-socketio
-    -pip3 install seaborn
-    -pip3 install pandas
-    -pip3 install imageio
-    -pip3 install moviepy
-    -pip3 install tensorflow==1.1
-    -pip3 install keras==1.2
+    pip3 install numpy
+    pip3 install matplotlib
+    pip3 install jupyter
+    pip3 install opencv3
+    pip3 install pillow
+    pip3 install scikit-learn
+    pip3 install scikit-image
+    pip3 install scipy
+    pip3 install h5py
+    pip3 install eventlet
+    pip3 install flask-socketio
+    pip3 install seaborn
+    pip3 install pandas
+    pip3 install imageio
+    pip3 install moviepy
+    pip3 install tensorflow==1.1
+    pip3 install keras==1.2
     
 -Git clone or download this repo into your pc
 
