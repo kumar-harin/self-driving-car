@@ -4,9 +4,9 @@ Hi,
 
 This is Harin Kumar
 
-This self driving car is developed by usind Machine Learning(ML) and not Artificial Intelligence(AI) as they have subtle differences.
+This self driving car is developed by using Machine Learning(ML) and not Artificial Intelligence(AI) . They have subtle differences.
 An ML Agent is developed by feeding it the training data and showing it the glimpses of how driving works.
-But an AI Agent is directly thrown into world and it should figure out how driving works by experimenting.
+But an AI Agent is directly thrown into the world and it should figure out how driving works by experimenting and exploring.
 
 This is the same process used by TESLA and NVIDIA to design self driving cars.But this process is less complex, takes less time and not as
 stable as their processes.
@@ -48,11 +48,11 @@ IF YOU WANT TO MAKE YOUR OWN MODEL DO THE FOLLOWING STEPS OR IF YOU WANT TO DIRE
 
 TRAIN YOUR OWN MODEL:
 
-1)open beta_simulator.exe and select graphics(depends on your processor) , check out controls and select training mode. hit R to start training....select a folder(new or existing) to save the training data(training data is basically your recorded gameplay)...and start driving ....drive like you drive in real life as this will be recorded and used for the agent...drive around for about 6-10 times around the map.Hit R to stop recording and it will take few minutes to save the data
+1)open beta_simulator.exe and select graphics settings(depends on your processor) , check out controls first and select training mode. hit R to start training....select a folder(new or existing) to save the training data(training data is basically your recorded gameplay)...and start driving ....drive like you drive in the real life as this will be recorded and used for the agent...drive around for about 6-10 times around the map.Hit R to stop recording and it will take few minutes to save the data
 
 -training data(driving_log.csv) contains an excel sheets which has camera feed, which is fixed on front side of the car and its velocity, steering angle
 
-2)open ML Agent and open model.py and go to def main() function:
+2)open ML Agent folder and open model.py and go to def main() function:
 
 the argument in argparser is the location of your saved training data..type in the location there.
 Then, open the terminal run this command:
@@ -61,6 +61,7 @@ Then, open the terminal run this command:
     
 This starts the training of the model...this takes 30min-8hrs....depends on your processor.
 After this is done, a couple of model.h5 files are made in the directory...
+At the end of each epoch, model.h5 is saved if it is better than the previous model.
 (model-00x.h5, the model with greatest x values is your best model)
 
 3)open drive.py and in if__name__ == " __main__ ":
