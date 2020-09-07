@@ -4,7 +4,7 @@ Hi,
 
 This is Harin Kumar
 
-This self driving car is developed by using Artificial Intelligence. The AI agent learns to drive by analysing the camera feed given to it.
+This self driving car is developed by using Machine Learning. The AI agent learns to drive by analysing the camera feed given to it.
 
 This is the same process used by TESLA and NVIDIA to design self driving cars.But this process is less complex, takes less time and not as
 stable as their processes.
