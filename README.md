@@ -19,3 +19,7 @@ Neural Network Architecture(coded with Keras):
     model.add(Dense(50, activation='elu'))
     model.add(Dense(10, activation='elu'))
     model.add(Dense(1))  
+
+
+python -> 3.5
+tensorflow -> 1.1.0
