@@ -1,5 +1,4 @@
-This self driving car is developed by using Neural Networks. The AI agent learns to drive by analysing the camera feed given to it.
-
+Model is trained on images captured by cameras attached to the car.
 
 Neural Network Architecture(coded with Keras):
     
