@@ -21,4 +21,5 @@ Neural Network Architecture(coded with Keras):
 
 
 python -> 3.5
+
 tensorflow -> 1.1.0
